@@ -7,43 +7,7 @@ const routes: Routes = [
   {
     path: '',
     component: PcicSidebarComponent,
-    children: [
-      {
-        path: 'dashboard',
-        loadChildren: () =>
-          import('src/app/dashboard/dashboard.module').then(
-            (m) => m.DashboardModule
-          ),
-      },
-      {
-        path: 'users',
-        loadChildren: () =>
-          import('src/app/dashboard/users/users.module').then(
-            (m) => m.UsersModule
-          ),
-      },
-      {
-        path: 'assignment',
-        loadChildren: () =>
-          import('src/app/dashboard/assignment/assignment.module').then(
-            (m) => m.AssignmentModule
-          ),
-      },
-      {
-        path: 'standard-report',
-        loadChildren: () =>
-          import(
-            'src/app/dashboard/standard-report/standard-report.module'
-          ).then((m) => m.StandardReportModule),
-      },
-      {
-        path: 'custom-report',
-        loadChildren: () =>
-          import('src/app/dashboard/custom-report/custom-report.module').then(
-            (m) => m.CustomReportModule
-          ),
-      },
-    ],
+    children: [],
   },
 ];
 
