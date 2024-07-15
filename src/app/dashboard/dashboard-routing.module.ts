@@ -86,9 +86,9 @@ const routes: Routes = [
       {
         path: 'grades',
         loadChildren: () =>
-          import('src/app/dashboard/users/grading-system/grades/grades.module').then(
-            (m) => m.GradesModule
-          ),
+          import(
+            'src/app/dashboard/users/grading-system/grades/grades.module'
+          ).then((m) => m.GradesModule),
       },
 
       {
@@ -134,9 +134,9 @@ const routes: Routes = [
       {
         path: 'teacher',
         loadChildren: () =>
-          import('src/app/dashboard/users/evaluation/teacher/teacher.module').then(
-            (m) => m.TeacherModule
-          ),
+          import(
+            'src/app/dashboard/users/evaluation/teacher/teacher.module'
+          ).then((m) => m.TeacherModule),
       },
 
       {
@@ -192,16 +192,16 @@ const routes: Routes = [
       {
         path: 'settings',
         loadChildren: () =>
-          import(
-            'src/app/dashboard/users/settings/settings.module'
-          ).then((m) => m.SettingsModule),
+          import('src/app/dashboard/users/settings/settings.module').then(
+            (m) => m.SettingsModule
+          ),
       },
       {
         path: 'submission',
         loadChildren: () =>
-          import(
-            'src/app/dashboard/users/submission/submission.module'
-          ).then((m) => m.SubmissionModule),
+          import('src/app/dashboard/users/submission/submission.module').then(
+            (m) => m.SubmissionModule
+          ),
       },
       {
         path: 'tasks',
@@ -210,23 +210,6 @@ const routes: Routes = [
             (m) => m.TasksModule
           ),
       },
-      // school_admin:
-
-      {
-        path: 'admission',
-        loadChildren: () =>
-          import('../admission/admission.module').then(
-            (m) => m.AdmissionModule
-          ),
-      },
-      {
-        path: 'enrollment',
-        loadChildren: () =>
-          import('../enrollment/enrollment.module').then(
-            (m) => m.EnrollmentModule
-          ),
-      },
-
       // General Routes
       {
         path: 'media-manager',

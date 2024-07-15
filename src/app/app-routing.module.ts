@@ -3,17 +3,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './shared/service/guards/auth.guard'; // Import AuthGuard
-import { InstructorSpeechlabComponent } from './shared/components/instructor/instructor-speechlab/instructor-speechlab.component';
 
 const routes: Routes = [
   {
     // Root Path
     path: '',
     loadChildren: () =>
-      import('./shared/components/components.module').then((m) => m.ComponentsModule),
+      import('./shared/components/components.module').then(
+        (m) => m.ComponentsModule
+      ),
   },
-
-    
 
   {
     path: 'auth',
@@ -29,19 +28,15 @@ const routes: Routes = [
   {
     path: 'error',
     loadChildren: () =>
-      import('./shared/components/error/error.module').then((m) => m.ErrorModule),
+      import('./shared/components/error/error.module').then(
+        (m) => m.ErrorModule
+      ),
   },
-  {
-    path: 'instructor-speechlab', component: InstructorSpeechlabComponent
-  },
+
   // Wildcard Path
   {
     path: '**',
     redirectTo: 'error/404',
-  },
-  {
-    path: 'dashboard/enrollments/student-list',
-    loadChildren: () => import('./dashboard/admin/enrollments/student-list/student-list.module').then(m => m.StudentListModule)
   },
 ];
 

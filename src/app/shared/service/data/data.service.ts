@@ -2661,21 +2661,21 @@ export class DataService {
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -2684,21 +2684,21 @@ export class DataService {
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -2707,21 +2707,21 @@ export class DataService {
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -2730,21 +2730,21 @@ export class DataService {
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -2753,21 +2753,21 @@ export class DataService {
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -2776,21 +2776,21 @@ export class DataService {
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -2799,21 +2799,21 @@ export class DataService {
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/register-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -3550,7 +3550,7 @@ export class DataService {
       referrals: 'Guy Hawkins',
       img: 'assets/img/students/refer-img1.png',
       referredId: '09341',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '10',
       totalEarned: '$45.00',
     },
@@ -3558,7 +3558,7 @@ export class DataService {
       referrals: 'Dianna Smiley',
       img: 'assets/img/students/refer-img2.png',
       referredId: '09342',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '15',
       totalEarned: '$75.00',
     },
@@ -3566,7 +3566,7 @@ export class DataService {
       referrals: 'Guy Hawkin',
       img: 'assets/img/students/refer-img3.png',
       referredId: '09343',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '20',
       totalEarned: '$100.00',
     },
@@ -3574,7 +3574,7 @@ export class DataService {
       referrals: 'Jacob Jones',
       img: 'assets/img/students/refer-img4.png',
       referredId: '09344',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '1',
       totalEarned: '$44.00',
     },
@@ -3582,7 +3582,7 @@ export class DataService {
       referrals: 'Kristin Watson',
       img: 'assets/img/students/refer-img5.png',
       referredId: '09345',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '5',
       totalEarned: '$25.00',
     },
@@ -3590,7 +3590,7 @@ export class DataService {
       referrals: 'Rivao Luke',
       img: 'assets/img/students/refer-img6.png',
       referredId: '09346',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '500',
       totalEarned: '$160.00',
     },
@@ -3598,7 +3598,7 @@ export class DataService {
       referrals: 'Nia Sikhone',
       img: 'assets/img/students/refer-img7.png',
       referredId: '09347',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '187',
       totalEarned: '$150.00',
     },
@@ -3606,7 +3606,7 @@ export class DataService {
       referrals: 'Xiaon Merry',
       img: 'assets/img/students/refer-img8.png',
       referredId: '09348',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '10',
       totalEarned: '$45.00',
     },
@@ -3614,7 +3614,7 @@ export class DataService {
       referrals: 'Guy Hawkins',
       img: 'assets/img/students/refer-img9.png',
       referredId: '09349',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '15',
       totalEarned: '$10.00',
     },
@@ -3622,7 +3622,7 @@ export class DataService {
       referrals: 'Dianna Smiley',
       img: 'assets/img/students/refer-img10.png',
       referredId: '09350',
-      url: 'https://quanbylmscourse.com/reffer/?refid=345re667877k9',
+      url: 'https://pcic_web_dashboardcourse.com/reffer/?refid=345re667877k9',
       visits: '98',
       totalEarned: '$10.00',
     },
@@ -4312,21 +4312,21 @@ export class DataService {
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -4335,21 +4335,21 @@ export class DataService {
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
@@ -4358,21 +4358,21 @@ export class DataService {
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },
     {
       img: 'assets/img/login-img.png',
       content1: 'Welcome to',
-      content2: 'QuanbyLMS Courses.',
+      content2: 'pcic_web_dashboard Courses.',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
     },

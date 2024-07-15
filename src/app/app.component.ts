@@ -11,7 +11,7 @@ import { SupabaseService } from './shared/service/api-supabase/supabase.service'
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'quanby-lms';
+  title = 'pcic-web-application';
   public base = '';
   public page = '';
   public last = '';

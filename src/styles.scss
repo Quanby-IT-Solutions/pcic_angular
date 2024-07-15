@@ -11,24 +11,24 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$quanby-lms-primary: mat.define-palette(mat.$indigo-palette);
-$quanby-lms-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$pcic-web-application-primary: mat.define-palette(mat.$indigo-palette);
+$pcic-web-application-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$quanby-lms-warn: mat.define-palette(mat.$red-palette);
+$pcic-web-application-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$quanby-lms-theme: mat.define-light-theme((color: (primary: $quanby-lms-primary,
-      accent: $quanby-lms-accent,
-      warn: $quanby-lms-warn,
+$pcic-web-application-theme: mat.define-light-theme((color: (primary: $pcic-web-application-primary,
+      accent: $pcic-web-application-accent,
+      warn: $pcic-web-application-warn,
     ),
   ));
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
-@include mat.all-component-themes($quanby-lms-theme);
+@include mat.all-component-themes($pcic-web-application-theme);
 
 @import "assets/css/style.css";
 @import 'primeng/resources/themes/saga-blue/theme.css';

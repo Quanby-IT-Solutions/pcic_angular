@@ -1,10 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test('home has title Quanby LMS', async ({ page }) => {
+test('home has title PCIC Web Application', async ({ page }) => {
   await page.goto('http://localhost:4200');
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Quanby LMS/);
+  await expect(page).toHaveTitle(/PCIC Web Application/);
 });
 
 test('signin link is /auth/login', async ({ page }) => {

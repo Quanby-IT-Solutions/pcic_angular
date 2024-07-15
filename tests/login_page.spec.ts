@@ -7,9 +7,9 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('Signin', () => {
 
-  test('home has title Quanby LMS', async ({ page }) => {
+  test('home has title PCIC Web Application', async ({ page }) => {
     // Expect a title "to contain" a substring.
-    await expect(page).toHaveTitle(/Quanby LMS/);
+    await expect(page).toHaveTitle(/PCIC Web Application/);
   });
 
   test('signin link is /auth/login', async ({ page }) => {
@@ -20,7 +20,7 @@ test.describe('Signin', () => {
     await expect(page).toHaveURL(/\/auth\/login$/);
   });
 
-  test('try to signin', async ({ page }) => {  
+  test('try to signin', async ({ page }) => {
     // Click the get started link.
     await page.getByRole('link', { name: 'Signin' }).click();
 
@@ -36,4 +36,4 @@ test.describe('Signin', () => {
     // Expects page to have a heading with the name of Dashboard.
     await expect(page.getByRole('heading', { name: 'Dashboard' })).toBeVisible();
     });
-}); 
+});

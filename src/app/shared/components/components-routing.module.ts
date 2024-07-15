@@ -9,13 +9,6 @@ const routes: Routes = [
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
 
-      // {
-      //   path: 'blog',
-      //   loadChildren: () =>
-      //     import('./blog/blog.module').then((m) => m.BlogModule),
-      // },
-
-       
       {
         path: 'mentors',
         loadChildren: () =>
@@ -23,7 +16,6 @@ const routes: Routes = [
             (m) => m.MentorsModule
           ),
       },
-        
 
       {
         path: 'instructor',
@@ -32,22 +24,6 @@ const routes: Routes = [
             (m) => m.InstructorModule
           ),
       },
-
-      {
-        path: 'admission',
-        loadChildren: () =>
-          import('src/app/admission/admission.module').then(
-            (m) => m.AdmissionModule
-          ),
-      },
-      {
-        path: 'enrollment',
-        loadChildren: () =>
-          import('src/app/enrollment/enrollment.module').then(
-            (m) => m.EnrollmentModule
-          ),
-      },
-      
       {
         path: 'pages',
         loadChildren: () =>
@@ -61,7 +37,7 @@ const routes: Routes = [
       {
         path: 'home',
         loadChildren: () =>
-          import('./home-list/home/home.module').then((m) => m.HomeModule),
+          import('./home/home.module').then((m) => m.HomeModule),
       },
     ],
   },

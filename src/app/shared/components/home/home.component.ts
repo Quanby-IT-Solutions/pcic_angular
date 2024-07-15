@@ -184,24 +184,16 @@
 //   }
 // }
 
-
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { routes } from 'src/app/shared/service/routes/routes';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  constructor(private router: Router) { }
-
-  public routeLinks = [
-    { title: 'Admission', route: routes.admission },
-    { title: 'Enrollment', route: routes.enrollment }
-    
-  ];
+  constructor(private router: Router) {}
 
   navigateTo(route: string) {
     this.router.navigate([route]);
