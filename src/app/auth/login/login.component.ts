@@ -14,7 +14,7 @@ import { GuestUser, welcomeLogin } from 'src/app/shared/models/model';
 })
 export class LoginComponent {
   public routes = routes;
-  password = 'password';
+  password = '';
   show = true;
   email: string = '';
   passwordInput: string = '';
@@ -54,6 +54,10 @@ export class LoginComponent {
 
   async login() {
     try {
+      // console.log('\n\n');
+      // console.log('Logging in with email: ', this.email);
+      // console.log('Logging in with password: ', this.password);
+      // console.log('\n\n');
       await this.supabaseService.signIn(this.email, this.password);
       this.router.navigate(['/dashboard']);
     } catch (error) {

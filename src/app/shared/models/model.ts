@@ -1,9 +1,16 @@
 // src/app/shared/models/model.ts
 
+// mar interfaces
 export interface GuestUser {
   id: string;
   email: string;
   user_type: string;
+}
+
+export interface Item {
+  title: string;
+  route?: string;
+  subItems?: Item[];
 }
 
 export interface url {

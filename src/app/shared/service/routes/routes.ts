@@ -5,18 +5,14 @@ export class routes {
     return this.Url;
   }
 
-  public static get dashboard(): string{
-    return this.baseUrl + '/dashboard/'
+  public static get dashboard(): string {
+    return this.baseUrl + '/dashboard/';
   }
 
- 
-  // student routings 
- 
-
+  // student routings
 
   // end student routings
   // Instructor Routings
-
 
   public static get instructor(): string {
     return this.baseUrl + '/instructor/';
@@ -367,7 +363,6 @@ export class routes {
 
   // Auth Routes
 
-
   public static get auth(): string {
     return this.baseUrl + '/auth/';
   }
@@ -394,8 +389,6 @@ export class routes {
   }
 
   //custom-pages routes
-  
- 
 
   // Error Routes
 
@@ -432,66 +425,57 @@ export class routes {
 
   // Admin Dashboard Routes
 
-  
-  
-
   //student-information
 
-
-
-// end student-information
+  // end student-information
 
   public static get users_dashboard(): string {
     return this.baseUrl + '/dashboard';
   }
 
+  public static get assessments(): string {
+    return this.users_dashboard + '/assessments';
+  }
 
- public static get assessments(): string {
-  return this.users_dashboard + '/assessments';
-}
+  public static get attendance(): string {
+    return this.users_dashboard + '/attendance';
+  }
 
-public static get attendance(): string {
-  return this.users_dashboard + '/attendance';
-}
+  public static get clearance(): string {
+    return this.users_dashboard + '/clearance';
+  }
 
-public static get clearance(): string {
-  return this.users_dashboard + '/clearance';
-}
+  public static get document_management(): string {
+    return this.users_dashboard + '/document-management';
+  }
 
-public static get document_management(): string {
-  return this.users_dashboard + '/document-management';
-}
+  public static get kiosk(): string {
+    return this.users_dashboard + '/kiosk';
+  }
 
-public static get kiosk(): string {
-  return this.users_dashboard + '/kiosk';
-}
+  public static get queuing(): string {
+    return this.users_dashboard + '/queuing';
+  }
 
-public static get queuing(): string {
-  return this.users_dashboard + '/queuing';
-}
+  public static get schedules(): string {
+    return this.users_dashboard + '/schedules';
+  }
 
-public static get schedules(): string {
-  return this.users_dashboard + '/schedules';
-}
+  public static get scholarships(): string {
+    return this.users_dashboard + '/scholarships';
+  }
 
-public static get scholarships(): string {
-  return this.users_dashboard + '/scholarships';
-}
+  public static get class_records(): string {
+    return this.users_dashboard + '/class-records';
+  }
 
+  public static get grades(): string {
+    return this.users_dashboard + '/grades';
+  }
 
-public static get class_records(): string {
-  return this.users_dashboard + '/class-records';
-}
-
-
-public static get grades(): string {
-  return this.users_dashboard + '/grades';
-}
-
-
-public static get report_generation(): string {
-  return this.users_dashboard + '/report-generation';
-}
+  public static get report_generation(): string {
+    return this.users_dashboard + '/report-generation';
+  }
 
   public static get admission(): string {
     return this.users_dashboard + '/admission';
@@ -501,11 +485,10 @@ public static get report_generation(): string {
     return this.users_dashboard + '/mentors';
   }
 
-
   public static get tasks(): string {
     return this.users_dashboard + '/tasks';
   }
-  
+
   public static get calendar(): string {
     return this.users_dashboard + '/calendar';
   }
@@ -530,8 +513,6 @@ public static get report_generation(): string {
     return this.users_dashboard + '/cls';
   }
 
-
-
   public static get courses(): string {
     return this.users_dashboard + '/c';
   }
@@ -547,7 +528,7 @@ public static get report_generation(): string {
   public static get quiz(): string {
     return this.users_dashboard + '/quiz';
   }
-  
+
   public static get settings(): string {
     return this.users_dashboard + '/settings';
   }
@@ -556,15 +537,9 @@ public static get report_generation(): string {
     return this.users_dashboard + '/submission';
   }
 
-
   public static get enrollment(): string {
     return this.users_dashboard + '/enrollment';
   }
-
-
-  
-
-
 
   public static get admin_dashboard(): string {
     return this.baseUrl + '/dashboard';
@@ -677,8 +652,6 @@ public static get report_generation(): string {
   public static get enrollments(): string {
     return this.admin_dashboard + '/enrollments';
   }
-
-  
 
   public static get enrollments_refund_n_cancellation(): string {
     return this.admin_dashboard + '/enrollments/refund-n-cancellation';
@@ -1002,5 +975,4 @@ public static get report_generation(): string {
   public static get student_data(): string {
     return this.admin_dashboard + '/enrollments/student-list/student-data';
   }
-
 }
