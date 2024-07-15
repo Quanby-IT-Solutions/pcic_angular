@@ -1,12 +1,13 @@
+<!-- src/app/auth/dashboard/ -->
 <div class="flex min-h-screen">
-  <app-our-sidebar [searchQuery]="searchQuery"></app-our-sidebar>
+  <app-pcic-sidebar [searchQuery]="searchQuery"></app-pcic-sidebar>
   <div class="flex-1 flex flex-col">
     <app-our-header (search)="handleSearch($event)"></app-our-header>
     <main class="flex-1 p-6 bg-gray-50">
       <router-outlet></router-outlet>
       @if (isMainRouteActive) {
       <div>
-        @if (getUserRole() === 'instructor') {
+        @if (getUserRole() === 'National_Admin') {
         <div>
           <div> i am {{ getUserRole() }}</div>
           <button class="btn btn-primary" (click)="showModal()">Add Course</button>

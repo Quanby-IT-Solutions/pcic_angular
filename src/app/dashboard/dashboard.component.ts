@@ -31,7 +31,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.checkRoute();
     this.routerSubscription = this.router.events
-      .pipe(filter(event => event instanceof NavigationEnd))
+      .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe(() => {
         this.checkRoute();
       });
@@ -117,9 +117,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   }
 }
 
-
 //new
-
 
 // import { Component, OnInit, OnDestroy } from '@angular/core';
 // import { Router, NavigationEnd } from '@angular/router';
@@ -221,5 +219,3 @@ export class DashboardComponent implements OnInit, OnDestroy {
 //     this.router.navigate(['/dashboard']);
 //   }
 // }
-
-

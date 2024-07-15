@@ -1,0 +1,33 @@
+<!-- src/app/dashboard/components/sidebar/sidebar.component.html -->
+<aside class="w-64 bg-white py-8">
+  <h1>
+    <a [routerLink]="routes.home" class="text-indigo-500 text-3xl font-bold p-4"> PCIC Dashboard </a>
+  </h1>
+  <nav class="flex-1 overflow-y-auto">
+    <ul class="space-y-2 p-4">
+      <ng-container *ngIf="user">
+        <li *ngFor="let item of paths; trackBy: trackByTitle">
+          <div class="flex items-center justify-between p-2 cursor-pointer" [ngClass]="{
+                 'text-gray-800 hover:bg-indigo-500 hover:rounded-lg hover:text-white': true,
+                 'bg-indigo-500 text-white rounded-lg': isActive(item.route)
+               }">
+            <a [routerLink]="item.route" class="w-full" [ngClass]="{
+                 'hover:text-white': true,
+                 'text-white': isActive(item.route)
+               }">
+              {{ item.title }}
+            </a>
+          </div>
+        </li>
+      </ng-container>
+      <li>
+        <div
+          class="flex items-center justify-between p-2 text-gray-800 hover:bg-indigo-500 hover:rounded-lg hover:text-white cursor-pointer"
+          tabindex="0" (click)="logout()" (keyup.enter)="logout()" (keydown.enter)="logout()"
+          (keydown.space)="logout()">
+          <span>Logout</span>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</aside>

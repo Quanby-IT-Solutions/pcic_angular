@@ -6,7 +6,21 @@ export class routes {
   }
 
   public static get dashboard(): string {
-    return this.baseUrl + '/dashboard/';
+    return this.baseUrl + '/dashboard';
+  }
+
+  // mar pcic routes
+  public static get users(): string {
+    return this.dashboard + '/users';
+  }
+  public static get assignment(): string {
+    return this.dashboard + '/assignment';
+  }
+  public static get standard_report(): string {
+    return this.dashboard + '/standard-report';
+  }
+  public static get custom_report(): string {
+    return this.dashboard + '/custom-report';
   }
 
   // student routings

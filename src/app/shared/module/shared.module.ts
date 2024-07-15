@@ -30,10 +30,10 @@ import { MatTableModule } from '@angular/material/table';
 import { MatIconModule } from '@angular/material/icon';
 import { MatNativeDateModule } from '@angular/material/core';
 
-import { InstructorSettingTabModule } from 'src/app/shared/components/instructor/common/instructor-setting-tab/instructor-setting-tab.module';
-import { InstructorSidebarModule } from 'src/app/shared/components/instructor/common/instructor-sidebar/instructor-sidebar.module';
-import { StudentSettingTabModule } from 'src/app/shared/components/student/common/student-setting-tab/student-setting-tab.module';
-import { StudentSidebarModule } from 'src/app/shared/components/student/common/student-sidebar/student-sidebar.module';
+// import { InstructorSettingTabModule } from 'src/app/shared/components/instructor/common/instructor-setting-tab/instructor-setting-tab.module';
+// import { InstructorSidebarModule } from 'src/app/shared/components/instructor/common/instructor-sidebar/instructor-sidebar.module';
+// import { StudentSettingTabModule } from 'src/app/shared/components/student/common/student-setting-tab/student-setting-tab.module';
+// import { StudentSidebarModule } from 'src/app/shared/components/student/common/student-sidebar/student-sidebar.module';
 
 @NgModule({
   imports: [
@@ -76,10 +76,10 @@ import { StudentSidebarModule } from 'src/app/shared/components/student/common/s
     MatIconModule,
     MatNativeDateModule,
     BsDatepickerModule,
-    InstructorSettingTabModule,
-    InstructorSidebarModule,
-    StudentSettingTabModule,
-    StudentSidebarModule,
+    // InstructorSettingTabModule,
+    // InstructorSidebarModule,
+    // StudentSettingTabModule,
+    // StudentSidebarModule,
   ],
   exports: [
     CommonModule,
@@ -107,10 +107,10 @@ import { StudentSidebarModule } from 'src/app/shared/components/student/common/s
     MatIconModule,
     MatNativeDateModule,
     BsDatepickerModule,
-    InstructorSettingTabModule,
-    InstructorSidebarModule,
-    StudentSettingTabModule,
-    StudentSidebarModule,
+    // InstructorSettingTabModule,
+    // InstructorSidebarModule,
+    // StudentSettingTabModule,
+    // StudentSidebarModule,
   ],
   providers: [BsDatepickerConfig, DatePipe, BsDaterangepickerConfig],
 })

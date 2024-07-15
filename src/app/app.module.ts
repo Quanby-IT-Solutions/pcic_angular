@@ -25,7 +25,7 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 
 import { SharedModule } from './shared/module/shared.module';
-import { OurHeaderComponent } from './dashboard/header/header.component';
+import { OurHeaderComponent } from './dashboard/components/header/header.component';
 @NgModule({
   declarations: [AppComponent],
   imports: [

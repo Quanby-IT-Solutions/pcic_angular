@@ -8,32 +8,6 @@ const routes: Routes = [
     component: ComponentsComponent,
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-
-      {
-        path: 'mentors',
-        loadChildren: () =>
-          import('src/app/dashboard/users/mentors/mentors.module').then(
-            (m) => m.MentorsModule
-          ),
-      },
-
-      {
-        path: 'instructor',
-        loadChildren: () =>
-          import('./instructor/instructor.module').then(
-            (m) => m.InstructorModule
-          ),
-      },
-      {
-        path: 'pages',
-        loadChildren: () =>
-          import('./pages/pages.module').then((m) => m.PagesModule),
-      },
-      {
-        path: 'student',
-        loadChildren: () =>
-          import('./student/student.module').then((m) => m.StudentModule),
-      },
       {
         path: 'home',
         loadChildren: () =>
